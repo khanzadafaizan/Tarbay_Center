@@ -1,38 +1,2019 @@
-.App {
+body {
+  margin: 0% !important;
+  padding: 0% !important;
+}
+/* topBar section start */
+.topbar {
+  background-color: #270b79 !important;
+}
+.topbar .nav-link {
+  cursor: copy !important;
+  font-family: "Open Sans", sans-serif !important;
+  height: 41px !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 18.84px !important;
+}
+.top-icon {
+  width: 20px !important;
+  height: 20px !important;
+  color: #fe9816 !important;
+  margin-right: 15px !important;
+}
+/* topBar section end */
+/* Navbar section start */
+.nav-link {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #000000 !important;
+  line-height: 18.84px !important;
+}
+.dog_hand_logo_box {
+  position: relative !important;
+}
+.box_child1 {
+  position: absolute !important;
+  right: -56px;
+  bottom: -10px;
+}
+.box_child2 {
+  position: absolute !important;
+  right: -74px;
+  top: 30px;
+}
+.book_btn {
+  width: 168px !important;
+  height: 44px !important;
+  border-radius: 10px !important;
+  background-color: #fe9816 !important;
+  border: none !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 22.48px !important;
+  font-family: "Red Rose", serif !important;
+}
+/* Navbar section end */
+/* Hero section start */
+.hero-top {
+  display: flex !important;
+  justify-content: center !important;
+}
+.hero-top div {
+  width: 288px !important;
+  height: 8px !important;
+}
+.child1 {
+  background-color: #270b79 !important;
+}
+.child2 {
+  background-color: #0f4e6f !important;
+}
+.child3 {
+  background-color: #b66d2d !important;
+}
+.child4 {
+  background-color: #fe9816 !important;
+}
+.child5 {
+  background-color: #fede8c !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+.custom-item {
+  position: relative;
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    #b66d2d 0%,
+    #b66d2d 30%,
+    rgb(0, 150, 0, 0.2)
+  );
+  pointer-events: none;
+  opacity: 0.3;
+}
+.custom-caption {
+  position: absolute !important;
+  color: white !important;
+  text-align: left !important;
+  top: 100px !important;
+  left: 100px !important;
+}
+.custom-caption h5 {
+  width: 450px !important;
+  height: 112px !important;
+  font-family: "Red Rose", serif !important;
+  font-weight: 700 !important;
+  font-size: 60px !important;
+  line-height: 56px !important;
+  z-index: 1 !important;
+}
+.custom-caption h5 span {
+  color: #fe9816 !important;
+  z-index: 1 !important;
+}
+.custom-caption p {
+  width: 500px !important;
+  height: 180px !important;
+  font-family: "Nanum Gothic", sans-serif;
+  line-height: 27px !important;
+}
+.learn_btn {
+  width: 190px !important;
+  height: 44px !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+  border: none !important;
+  font-weight: 700 !important;
+  font-size: 22px !important;
+  line-height: 27.48px !important;
+  font-family: "Red Rose", serif !important;
+  color: #0f4e6f !important;
+}
+.carousel-indicators {
+  justify-content: end !important;
+}
+.carousel-indicators button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  background-color: #fff !important;
+}
+.carousel-indicators button:active {
+  background-color: #0f4e6f !important;
+}
+.carousel-indicators button:disabled {
+  background-color: #fff !important;
+}
+/* Hero section end */
+/* Card section start */
+/* card1 style */
+.image {
+  width: 352px !important;
+  height: 414px !important;
+  position: relative !important;
+}
+.image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.image .info {
+  background-color: rgba(15, 78, 111, 0.6) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+}
+.image .block-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100%;
+  transform: translateY(100px);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.image .info img {
+  width: 98.15px !important;
+  height: 86px !important;
+}
+.dog-face {
+  margin-top: 10% !important;
+}
+.image .info h5 {
+  text-align: center !important;
+  width: 262px !important;
+  height: 27px !important;
+  margin-top: 27px !important;
+  margin-bottom: 12px !important;
+  font-family: "Red Rose", serif !important;
+  font-weight: 700 !important;
+  font-size: 26px !important;
+  line-height: 27px !important;
+  color: #fff !important;
+}
+/* Hidden content initially */
+.image .hidden-content {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  text-align: center !important;
+}
+.image .hidden-content p {
+  width: 280px !important;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image .hidden-content .learn_btn img {
+  width: 14.75px !important;
+  height: 13px !important;
+  line-height: 27px !important;
+}
+.image .hidden-content .learn_btn {
+  width: 155px !important;
+  height: 42px !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+  border: none !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  font-family: "Red Rose", serif !important;
+  color: #0f4e6f !important;
+}
+/* Hover effect */
+.image:hover .info {
+  background-color: rgba(15, 78, 111, 0.9) !important;
+}
+.image:hover .block-content {
+  transform: translateY(20px);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.image:hover .hidden-content {
+  opacity: 1;
+  transform: translateY(20px);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+/* card2 style */
+.image .info2 {
+  background-color: rgba(254, 152, 22, 0.4) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+}
+.image .info2 img {
+  width: 98.15px !important;
+  height: 98px !important;
+}
+.image .info2 h5 {
+  text-align: center !important;
+  width: 262px !important;
+  height: 27px !important;
+  margin-top: 27px !important;
+  margin-bottom: 12px !important;
+  font-family: "Red Rose", serif !important;
+  font-weight: 700 !important;
+  font-size: 26px !important;
+  line-height: 27px !important;
+  color: #fff !important;
+}
+/* Hover effect */
+.image:hover .info2 {
+  background-color: rgba(254, 152, 22, 0.7) !important;
+}
+/* card3 style */
+.image .info2 .img-dog-hand {
+  width: 112.15px !important;
+  height: 98px !important;
+}
+/* possitions */
+.card_dog_hand {
+  position: relative !important;
+}
+.dog_img1 {
+  position: absolute !important;
+  top: -10%;
+  left: -125px;
+}
+.dog_img2 {
+  position: absolute !important;
+  top: 20%;
+  left: -100px;
+}
+.dog_img3 {
+  position: absolute !important;
+  top: 40%;
+  left: -125px;
+}
+.dog_img4 {
+  position: absolute !important;
+  top: 60%;
+  left: -80px;
+}
+/* Card section end */
+/* our_customer section start */
+.our_customer h2 {
+  width: 263px;
+  height: 100px;
+  font-family: "Red Rose", serif !important;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: #000000 !important;
+}
+.our_customer p {
+  margin-top: 23px;
+  width: 435px;
+  height: 268px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #757575;
+}
+.our_customer h5 {
+  width: 247px;
+  height: 32px;
+  font-family: "Red Rose", serif !important;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000 !important;
+}
+.box_logo {
+  margin-top: 23px;
+  display: flex;
+  gap: 10px;
+}
+.girl img {
+  position: relative !important;
+  z-index: 1;
+  width: 617.28px !important;
+  height: 700px;
+  object-fit: cover;
+}
+/* our_customer section end */
+/* owl carousel section start */
+.owl_carousel-container.container {
+  position: relative !important;
+}
+.owl_carousel-container {
+  margin-top: -30px !important;
+  position: absolute !important;
+  z-index: 0 !important;
+}
+.owl_carousel {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+.owl_carousel p {
+  width: 327px;
+  height: 147px;
+  font-family: "Nanum Gothic", sans-serif !important;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: #fff;
+  margin-top: 33px;
+}
+.owl-theme .owl-dots {
+  display: none;
+}
+/* owl carousel section end */
+/* sneak section start */
+.sneak h2 {
+  margin: auto;
+  width: 583px;
+  height: 96px;
+  font-family: "Red Rose", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  align-items: center;
+  margin-bottom: 31px;
+  color: #000;
+}
+.sneak p {
+  width: 100%;
+  padding-left: 55px;
+  padding-right: 55px;
+  height: 210px;
+  font-family: "Nanum Gothic", sans-serif !important;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #757575;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* sneak card  style */
+.sneak_card {
+  width: 260px !important;
+  height: 344px !important;
+  position: relative !important;
+}
+.sneak_card img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.sneak_card .info {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s ease-in-out !important; /* Smooth transition */
+}
+.sneak_card:hover .info {
+  opacity: 1;
+  background-color: rgba(15, 78, 111, 0.66) !important;
+}
+.sneak_card .info img {
+  margin-top: 125px !important;
+  width: 44px !important;
+  height: 44px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sneak_card .info > * {
+  transform: translateY(50px);
+  transition: transform 0.5s ease-in-out;
+}
+.sneak_card:hover .info > * {
+  transform: translateY(20px);
+}
+.sneak_dog_hand {
+  position: relative !important;
+}
+.sneak_dog_hand .dog_img1 {
+  position: absolute !important;
+  top: -40%;
+  left: 10%;
+}
+.sneak_dog_hand .dog_img2 {
+  position: absolute !important;
+  top: -10%;
+  left: 94px;
+}
+.sneak_dog_hand .dog_img3 {
+  position: absolute !important;
+  top: 20%;
+  left: 10px;
+}
+.sneak_dog_hand .dog_img4 {
+  position: absolute !important;
+  top: 50%;
+  left: 104px;
+}
+/* sneak section end */
+/* trusted section start */
+.trusted h2 {
+  width: 558px;
+  height: 24px;
+  font-family: "Red Rose", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 24px;
+  color: #000000;
+}
+.trusted p {
+  width: 510px;
+  height: 24px;
+  font-family: "Nanum Gothic", sans-serif !important;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+/* trusted section end */
+/* footer section start */
+.footer {
+  width: 100%;
+  background-color: #0f4e6f;
+  height: 100%;
+  border: 1px solid #fe9816;
+}
+.footer_container ul {
+  width: 180px;
+  font-family: "Red Rose", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+.footer_container ul li {
+  list-style: none;
+  padding-top: 16px;
+}
+.footer_container ul li p {
+  width: 233px;
+  height: auto;
+  font-family: "Nanum Gothic", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}
+.footer_container .learn_btn {
+  margin-top: 0px !important;
+  list-style: none;
+  text-decoration: none;
+  width: 91px !important;
+  height: 22px !important;
+  background-color: transparent !important;
+  border: none !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  font-family: "Red Rose", serif !important;
+  color: #fff !important;
+  padding: 0px !important;
+}
+.footer_container ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Nanum Gothic", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 5px;
+}
+.footer_container .arrow_right {
+  width: 12px;
+  height: 12px;
+  color: #fe9816;
+}
+.social_media {
+  padding: 0% !important;
+}
+.footer-email-phone a {
+  cursor: copy !important;
+}
+.social_media .icons {
+  font-size: 28px;
+}
+.footer_container .footer-icon {
+  width: 20px;
+  height: 20px;
+  color: #fe9816;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer-email-phone {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: inline-flex;
+}
+.footer-bottom {
+  padding: 0% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom li {
+  list-style: none;
+  font-family: "Nanum Gothic", sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+}
+.footer-bottom li span {
+  color: #fe9816 !important;
+}
+.footer_dog_hand {
+  position: relative !important;
+}
+.footer_dog_hand .dog_img1 {
+  position: absolute !important;
+  top: -140px;
+  left: -120px;
+}
+.footer_dog_hand .dog_img2 {
+  position: absolute !important;
+  top: -60px;
+  left: -50px;
+}
+.footer_dog_hand .dog_img3 {
+  position: absolute !important;
+  top: 20px;
+  left: -120px;
+}
+.footer_dog_hand .dog_img4 {
+  position: absolute !important;
+  top: 120px;
+  left: -50px;
+}
+/* footer section end */
+/* Extra small devices (mobiles, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Topbar section start */
+  .topbar .nav-link {
+    cursor: copy !important;
+    font-family: "Open Sans", sans-serif !important;
+    height: 41px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 18.84px !important;
+  }
+  .top-icon {
+    width: 18px !important;
+    height: 18px !important;
+    color: #fe9816 !important;
+    margin-right: 12px !important;
+  }
+  /* Topbar section end */
+  /* Hero section start */
+  .custom-item {
+    position: relative;
+  }
+  .image-container img {
+    max-width: 100% !important;
+    height: 242px !important;
+    object-fit: cover !important;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      #b66d2d 0%,
+      #b66d2d 30%,
+      rgb(0, 150, 0, 0.2)
+    );
+    pointer-events: none;
+    opacity: 0.3;
+  }
+  .custom-caption {
+    position: absolute !important;
+    color: white !important;
+    text-align: left !important;
+    top: 15px !important;
+    left: 35px !important;
+  }
+  .custom-caption h5 {
+    width: 200px !important;
+    height: 50px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 26px !important;
+    line-height: 28px !important;
+    z-index: 1 !important;
+  }
+  .custom-caption h5 span {
+    color: #fe9816 !important;
+    z-index: 1 !important;
+  }
+  .custom-caption p {
+    width: 250px !important;
+    height: 70px !important;
+    padding-right: 5px;
+    font-family: "Nanum Gothic", sans-serif;
+    line-height: 23.5px !important;
+    max-width: max-content;
+    overflow: hidden;
+    white-space: normal;
+    position: relative !important;
+  }
+  .custom-caption p::after {
+    position: absolute !important;
+    content: "...";
+    bottom: 0;
+    right: 27px;
+  }
+  .learn_btn {
+    width: 150px !important;
+    height: 35px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 22.48px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  .carousel-indicators {
+    justify-content: end !important;
+  }
+  .carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+  }
+  .carousel-indicators button:active {
+    background-color: #0f4e6f !important;
+  }
+  .carousel-indicators button:disabled {
+    background-color: #fff !important;
+  }
+  /* Hero section end */
+
+  /* our_customer section start */
+  .our_customer {
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our_customer h2 {
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #000000 !important;
+  }
+  .our_customer p {
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #757575;
+  }
+  .our_customer h5 {
+    margin-left: 05px;
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000 !important;
+  }
+  .box_logo {
+    width: 100%;
+    margin-top: 05px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .box_logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .girl img {
+    position: relative !important;
+    z-index: 1;
+    width: 100% !important;
+    height: auto;
+    object-fit: cover;
+  }
+  /* our_customer section end */
+  /* owl carousel section start */
+  .owl_carousel-container.container {
+    position: relative !important;
+  }
+  .owl_carousel-container {
+    position: absolute !important;
+    z-index: 0 !important;
+  }
+  .owl_carousel {
+    width: 105%;
+    height: 120px;
+    display: flex;
+    justify-content: start;
+  }
+  .owl_carousel p {
+    width: 80%;
+    height: 87px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #fff;
+    margin-left: 15px !important;
+    margin-top: 18px !important;
+    overflow: hidden;
+    white-space: normal;
+    position: relative;
+  }
+  .owl_carousel p::after {
+    position: absolute;
+    content: "...";
+    bottom: 0;
+    right: 10px;
+  }
+  /* owl carousel section end */
+  /* Card section start */
+  /* card1 style */
+  .image {
+    width: 312px !important;
+    height: 384px !important;
+    position: relative !important;
+  }
+  .image .info img {
+    width: 94.15px !important;
+    height: 82px !important;
+  }
+  .dog-face {
+    margin-top: 7% !important;
+  }
+  .image .info h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hidden content initially */
+  .image .hidden-content p {
+    width: 280px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image .hidden-content .learn_btn {
+    width: 150px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    line-height: 27px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  /* card2 style */
+  .image .info2 img {
+    width: 80.15px !important;
+    height: 80px !important;
+  }
+  .image .info2 h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hover effect */
+  .image:hover .info2 {
+    background-color: rgba(254, 152, 22, 0.7) !important;
+  }
+  /* card3 style */
+  .image .info2 .img-dog-hand {
+    width: 90.15px !important;
+    height: 78px !important;
+  }
+  /* sneak section start */
+  .sneak h2 {
+    margin: auto;
+    width: 303px;
+    height: 70px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    align-items: center;
+    margin-bottom: 31px;
+    color: #000;
+  }
+  .sneak p {
+    width: 100%;
+    height: 195px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #757575;
+    text-align: center;
+    overflow: hidden;
+    white-space: normal;
+    position: relative;
+  }
+  .sneak p::after {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+  }
+  /* sneak card  style */
+  .sneak_card {
+    width: 250px !important;
+    height: 294px !important;
+    position: relative !important;
+  }
+  /* trusted section start */
+  .trusted h2 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .trusted p {
+    width: 100%;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+  }
+  /* footer section start */
+  .footer_container ul {
+    width: 350px;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+  }
+  .footer_container ul li p {
+    width: 180px;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+  }
+  .footer-bottom {
+    padding: 0% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-bottom li {
+    list-style: none;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+  }
+  .footer-bottom li span {
+    color: #fe9816 !important;
+  }
+}
+/* Small devices (mobiles, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Topbar section start */
+  .topbar .nav-link {
+    cursor: copy !important;
+    font-family: "Open Sans", sans-serif !important;
+    height: 41px !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 20.84px !important;
+  }
+  .top-icon {
+    width: 18px !important;
+    height: 18px !important;
+    color: #fe9816 !important;
+    margin-right: 15px !important;
+  }
+  /* Topbar section end */
+  /* Hero section start */
+  .custom-item {
+    position: relative;
+  }
+  .image-container img {
+    max-width: 100% !important;
+    height: 325.5px !important;
+    object-fit: cover !important;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      #b66d2d 0%,
+      #b66d2d 30%,
+      rgb(0, 150, 0, 0.2)
+    );
+    pointer-events: none;
+    opacity: 0.3;
+  }
+  .custom-caption {
+    position: absolute !important;
+    color: white !important;
+    text-align: left !important;
+    left: 45px !important;
+  }
+  .custom-caption h5 {
+    width: 250px !important;
+    height: 60px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 34px !important;
+    line-height: 32px !important;
+    z-index: 1 !important;
+  }
+  .custom-caption h5 span {
+    color: #fe9816 !important;
+    z-index: 1 !important;
+  }
+  .custom-caption {
+    position: absolute !important;
+    color: white !important;
+    text-align: left !important;
+    top: 0 !important;
+    left: 15 !important;
+  }
+  .custom-caption h5 {
+    width: 290px !important;
+    height: 80px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 42px !important;
+    z-index: 1 !important;
+  }
+  .custom-caption h5 span {
+    color: #fe9816 !important;
+    z-index: 1 !important;
+  }
+  .custom-caption p {
+    width: 400px !important;
+    height: 128px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    line-height: 25.5px !important;
+    overflow: hidden;
+    white-space: normal !important;
+    position: relative !important;
+  }
+  .custom-caption p::after {
+    position: absolute !important;
+    content: "...";
+    bottom: 0;
+    right: 0;
+  }
+  .learn_btn {
+    width: 160px !important;
+    height: 38px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 24.48px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  .carousel-indicators {
+    justify-content: end !important;
+  }
+  .carousel-indicators button {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+  }
+  .carousel-indicators button:active {
+    background-color: #0f4e6f !important;
+  }
+  .carousel-indicators button:disabled {
+    background-color: #fff !important;
+  }
+  /* Hero section end */
+  /* our_customer section start */
+  .our_customer {
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our_customer h2 {
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #000000 !important;
+  }
+  .our_customer p {
+    text-align: center;
+    margin-top: 05px;
+    width: 100%;
+    height: 50%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #757575;
+  }
+  .our_customer h5 {
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000 !important;
+  }
+  .box_logo {
+    width: 100%;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+  }
+  .box_logo img {
+    width: 35px;
+    height: 35px;
+  }
+  .girl img {
+    margin-top: 05px;
+    position: relative !important;
+    z-index: 1;
+    width: 487.28px !important;
+    height: auto;
+    object-fit: cover;
+  }
+  /* our_customer section end */
+  /* owl carousel section start */
+  .owl_carousel-container.container {
+    position: relative !important;
+  }
+  .owl_carousel-container {
+    position: absolute !important;
+    z-index: 0 !important;
+  }
+  .owl_carousel {
+    width: 102%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .owl_carousel p {
+    width: 210px;
+    height: 67px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #fff;
+    margin-left: 10px !important;
+    margin-top: 18px !important;
+    overflow: hidden;
+    white-space: normal;
+    position: relative;
+  }
+  .owl_carousel p::after {
+    position: absolute;
+    content: "...";
+    bottom: 0;
+    right: 0;
+  }
+  /* owl carousel section end */
+  /* Card section start */
+  /* card1 style */
+  .image {
+    width: 332px !important;
+    height: 387px !important;
+    position: relative !important;
+  }
+  .image .info img {
+    width: 94.15px !important;
+    height: 82px !important;
+  }
+  .dog-face {
+    margin-top: 7% !important;
+  }
+  .image .info h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hidden content initially */
+  .image .hidden-content p {
+    width: 280px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image .hidden-content .learn_btn {
+    width: 150px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    line-height: 27px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  /* card2 style */
+  .image .info2 img {
+    width: 80.15px !important;
+    height: 80px !important;
+  }
+  .image .info2 h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hover effect */
+  .image:hover .info2 {
+    background-color: rgba(254, 152, 22, 0.7) !important;
+  }
+  /* card3 style */
+  .image .info2 .img-dog-hand {
+    width: 90.15px !important;
+    height: 78px !important;
+  }
+  /* sneak section start */
+  .sneak h2 {
+    margin: auto;
+    width: 403px;
+    height: 50px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    align-items: center;
+    margin-bottom: 31px;
+    color: #000;
+  }
+  .sneak p {
+    width: 100%;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #757575;
+    text-align: center;
+  }
+  /* sneak card  style */
+  .sneak_card {
+    width: 250px !important;
+    height: 304px !important;
+    position: relative !important;
+  }
+  /* trusted section start */
+  .trusted h2 {
+    width: 458px;
+    height: 24px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .trusted p {
+    width: 510px;
+    height: 24px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+  }
+  /* footer section start */
+  .footer_container ul {
+    width: 250px;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+  }
+  .footer_container ul li p {
+    width: 240px;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+/* Medium devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Topbar section start */
+  .topbar .nav-link {
+    cursor: copy !important;
+    font-family: "Open Sans", sans-serif !important;
+    height: 41px !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 24.84px !important;
+  }
+  .top-icon {
+    width: 18px !important;
+    height: 18px !important;
+    color: #fe9816 !important;
+    margin-right: 15px !important;
+  }
+  /* Topbar section end */
+  /* Hero section start */
+  .custom-item {
+    position: relative;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      #b66d2d 0%,
+      #b66d2d 30%,
+      rgb(0, 150, 0, 0.2)
+    );
+    pointer-events: none;
+    opacity: 0.3;
+  }
+  .custom-caption {
+    position: absolute !important;
+    color: white !important;
+    text-align: left !important;
+    top: 65px !important;
+    left: 20px !important;
+  }
+  .custom-caption h5 {
+    width: 250px !important;
+    height: 60px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 34px !important;
+    line-height: 32px !important;
+    z-index: 1 !important;
+  }
+  .custom-caption h5 span {
+    color: #fe9816 !important;
+    z-index: 1 !important;
+  }
+  .custom-caption {
+    position: absolute !important;
+    color: white !important;
+    text-align: left !important;
+    top: 10px !important;
+    left: 70px !important;
+  }
+  .custom-caption h5 {
+    width: 350px !important;
+    height: 90px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 45px !important;
+    line-height: 45px !important;
+    z-index: 1 !important;
+  }
+  .custom-caption h5 span {
+    color: #fe9816 !important;
+    z-index: 1 !important;
+  }
+  .custom-caption p {
+    width: 450px !important;
+    height: 127px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    line-height: 25.5px !important;
+    white-space: normal;
+    position: relative;
+    overflow: hidden;
+  }
+  .custom-caption p::after {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 42px;
+  }
+  .learn_btn {
+    width: 170px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    line-height: 25.48px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  .carousel-indicators {
+    justify-content: end !important;
+  }
+  .carousel-indicators button {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+  }
+  .carousel-indicators button:active {
+    background-color: #0f4e6f !important;
+  }
+  .carousel-indicators button:disabled {
+    background-color: #fff !important;
+  }
+  /* Hero section end */
+  /* our_customer section start */
+  .our_customer h2 {
+    width: 253px;
+    height: 80px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000 !important;
+  }
+  .our_customer p {
+    margin-top: 10px;
+    width: 335px;
+    height: 255px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #757575;
+  }
+  .our_customer h5 {
+    width: 247px;
+    height: 28px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000 !important;
+  }
+  .box_logo {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  .box_logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .girl img {
+    position: relative !important;
+    z-index: 1;
+    width: 387.28px !important;
+    height: auto;
+    object-fit: cover;
+    margin-top: 55px;
+  }
+  /* our_customer section end */
+  /* owl carousel section start */
+  .owl_carousel-container.container {
+    position: relative !important;
+  }
+  .owl_carousel-container {
+    position: absolute !important;
+    z-index: 0 !important;
+  }
+  .owl_carousel {
+    width: 102%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+  }
+  .owl_carousel p {
+    width: 210px;
+    height: 117px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #fff;
+    margin-left: 10px !important;
+    margin-top: 18px !important;
+  }
+  /* owl carousel section end */
+  /* Card section start */
+  /* card1 style */
+  .image {
+    width: 332px !important;
+    height: 397px !important;
+    position: relative !important;
+  }
+  .image .info img {
+    width: 94.15px !important;
+    height: 82px !important;
+  }
+  .dog-face {
+    margin-top: 7% !important;
+  }
+  .image .info h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hidden content initially */
+  .image .hidden-content p {
+    width: 280px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image .hidden-content .learn_btn {
+    width: 150px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    line-height: 27px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  /* card2 style */
+  .image .info2 img {
+    width: 80.15px !important;
+    height: 80px !important;
+  }
+  .image .info2 h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hover effect */
+  .image:hover .info2 {
+    background-color: rgba(254, 152, 22, 0.7) !important;
+  }
+  /* card3 style */
+  .image .info2 .img-dog-hand {
+    width: 90.15px !important;
+    height: 78px !important;
+  }
+  /* sneak section start */
+  .sneak h2 {
+    margin: auto;
+    width: 483px;
+    height: 80px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    align-items: center;
+    margin-bottom: 31px;
+    color: #000;
+  }
+  .sneak p {
+    width: 100%;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+  }
+  /* sneak card  style */
+  .sneak_card {
+    width: 260px !important;
+    height: 314px !important;
+    position: relative !important;
+  }
+  /* trusted section start */
+  .trusted h2 {
+    width: 458px;
+    height: 24px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .trusted p {
+    width: 510px;
+    height: 24px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+  }
+  /* footer section start */
+  .footer_container ul {
+    width: 250px;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+  }
+  .footer_container ul li p {
+    width: 280px;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Large devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Topbar section start */
+  .topbar .nav-link {
+    cursor: copy !important;
+    font-family: "Open Sans", sans-serif !important;
+    height: 41px !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 24.84px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .top-icon {
+    width: 18px !important;
+    height: 18px !important;
+    color: #fe9816 !important;
+    margin-right: 15px !important;
+  }
+  /* Topbar section end */
+  /* Hero section start */
+  .custom-item {
+    position: relative;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      #b66d2d 0%,
+      #b66d2d 30%,
+      rgb(0, 150, 0, 0.2)
+    );
+    pointer-events: none;
+    opacity: 0.3;
+  }
+  .custom-caption {
+    position: absolute !important;
+    color: white !important;
+    text-align: left !important;
+    top: 50px !important;
+    left: 80px !important;
+  }
+  .custom-caption h5 {
+    width: 370px !important;
+    height: 100px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
+    z-index: 1 !important;
+  }
+  .custom-caption h5 span {
+    color: #fe9816 !important;
+    z-index: 1 !important;
+  }
+  .custom-caption p {
+    width: 450px !important;
+    height: 160px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    line-height: 25.5px !important;
+  }
+  .learn_btn {
+    width: 175px !important;
+    height: 42px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 25.48px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  .carousel-indicators {
+    justify-content: end !important;
+  }
+  .carousel-indicators button {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+  }
+  .carousel-indicators button:active {
+    background-color: #0f4e6f !important;
+  }
+  .carousel-indicators button:disabled {
+    background-color: #fff !important;
+  }
+  /* Hero section end */
+  .dog_hand_logo_box {
+    position: relative !important;
+  }
+  .box_child1 {
+    position: absolute !important;
+    right: -33px;
+    bottom: -05px;
+  }
+  .box_child2 {
+    position: absolute !important;
+    right: -33px;
+    top: 20px;
+  }
+  /* our_customer section start */
+  .our_customer h2 {
+    width: 263px;
+    height: 90px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 46px;
+    color: #000000 !important;
+  }
+  .our_customer p {
+    margin-top: 15px;
+    width: 435px;
+    height: 228px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #757575;
+  }
+  .our_customer h5 {
+    width: 247px;
+    height: 28px;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000 !important;
+  }
+  .box_logo {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .box_logo img {
+    width: 45px;
+    height: 45px;
+  }
+  .girl img {
+    position: relative !important;
+    z-index: 1;
+    width: 517.28px !important;
+    height: auto;
+    object-fit: cover;
+  }
+  /* our_customer section end */
+  /* owl carousel section start */
+  .owl_carousel-container.container {
+    position: relative !important;
+  }
+  .owl_carousel-container {
+    position: absolute !important;
+    z-index: 0 !important;
+  }
+  .owl_carousel {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+  }
+  .owl_carousel p {
+    width: 310px;
+    height: 147px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #fff;
+    margin-left: 15px !important;
+  }
+  /* owl carousel section end */
+  /* Card section start */
+  /* card1 style */
+  .image {
+    width: 332px !important;
+    height: 387px !important;
+    position: relative !important;
+  }
+  .image .info img {
+    width: 94.15px !important;
+    height: 82px !important;
+  }
+  .dog-face {
+    margin-top: 7% !important;
+  }
+  .image .info h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hidden content initially */
+  .image .hidden-content p {
+    width: 280px !important;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image .hidden-content .learn_btn {
+    width: 150px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    line-height: 27px !important;
+    font-family: "Red Rose", serif !important;
+    color: #0f4e6f !important;
+  }
+  /* card2 style */
+  .image .info2 img {
+    width: 80.15px !important;
+    height: 80px !important;
+  }
+  .image .info2 h5 {
+    text-align: center !important;
+    width: 262px !important;
+    height: 25px !important;
+    margin-top: 27px !important;
+    margin-bottom: 12px !important;
+    font-family: "Red Rose", serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+  }
+  /* Hover effect */
+  .image:hover .info2 {
+    background-color: rgba(254, 152, 22, 0.7) !important;
+  }
+  /* card3 style */
+  .image .info2 .img-dog-hand {
+    width: 90.15px !important;
+    height: 78px !important;
+  }
+  /* sneak section start */
+  .sneak h2 {
+    margin: auto;
+    width: 483px;
+    height: 90px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 46px;
+    align-items: center;
+    margin-bottom: 31px;
+    color: #000;
+  }
+  .sneak p {
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    height: 210px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+  }
+  /* trusted section start */
+  .trusted h2 {
+    width: 488px;
+    height: 24px;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .trusted p {
+    width: 510px;
+    height: 24px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+  }
+  /* trusted section end */
+  /* footer section start */
+  .footer_container ul li p {
+    width: 185px;
+    height: auto;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
   }
 }
+
+/* Extra large devices (large desktops, 1200px and above) */
+/* @media (min-width: 1200px) {
+  .dog_hand_logo_box {
+    position: relative !important;
+  }
+  .box_child1 {
+    position: absolute !important;
+    right: -55px;
+    bottom: -05px;
+  }
+  .box_child2 {
+    position: absolute !important;
+    right: -70px;
+    top: 20px;
+  }
+} */
+/* 320px se 767px
+768px se 1024px
+1025px se 1300px */
